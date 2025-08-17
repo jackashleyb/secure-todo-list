@@ -2,7 +2,7 @@
 
 A simple, secure todo list application built in Python with AWS S3 cloud integration, designed as a learning project for cybersecurity and cloud computing fundamentals.
 
-## 🎯 Project Overview
+## 🎯 Overview of my project
 
 This project demonstrates how to build a basic application with security best practices and cloud integration. It's perfect for beginners learning Python, cybersecurity concepts, and AWS cloud services.
 
@@ -17,7 +17,6 @@ This project demonstrates how to build a basic application with security best pr
 ### Cloud Integration
 - **AWS S3 Storage**: Automatic backup to cloud storage
 - **Dual Storage**: Local files + cloud sync
-- **Region Configuration**: EU North (Stockholm) for GDPR compliance
 - **Error Handling**: Graceful fallback if cloud services are unavailable
 
 ### Core Functionality
@@ -45,47 +44,12 @@ secure-todo-list/
 └── .gitignore         # Git ignore rules
 ```
 
-## 🚀 Getting Started
 
-### Prerequisites
+### Made With
 - Python 3.9 or higher
 - AWS CLI configured
 - AWS S3 bucket created
 
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd secure-todo-list
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip3 install boto3
-   ```
-
-3. **Configure AWS**
-   ```bash
-   aws configure
-   # Enter your AWS Access Key, Secret Key, and Region
-   ```
-
-4. **Create S3 bucket** (if not exists)
-   ```bash
-   aws s3 mb s3://your-bucket-name --region your-region
-   ```
-
-5. **Update bucket name in code**
-   ```python
-   bucket_name = "your-bucket-name"  # in todo_basic.py
-   ```
-
-### Running the Application
-
-```bash
-python3 todo_basic.py
-```
 
 **Default Password**: `1234` (change this in the code!)
 
@@ -192,9 +156,6 @@ This is a learning project! Feel free to:
 - Improve cloud integration
 - Share your learning experiences
 
-## 📝 License
-
-This project is open source and available under the MIT License.
 
 ## 🙏 Acknowledgments
 
