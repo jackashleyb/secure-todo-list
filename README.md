@@ -164,7 +164,3 @@ This is a learning project! Feel free to:
 - Designed to demonstrate real-world application of security concepts
 
 ---
-
-**Remember**: This is a learning project. In production environments, always follow security best practices and consult with security professionals.
-
-**Happy Learning! 🚀🔒☁️**
