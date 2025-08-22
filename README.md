@@ -51,7 +51,6 @@ secure-todo-list/
 - AWS S3 bucket created
 
 
-**Default Password**: `1234` (change this in the code!)
 
 ## 🔐 Security Features Explained
 
